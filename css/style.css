@@ -1,0 +1,1544 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700,800,600,500,300,200);
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+========================================================================== */
+
+
+
+
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+/*-------------------- Custom CSS --------------------*/
+   
+body{
+	font-family: 'Dosis', sans-serif;
+}
+a,a:hover{
+	text-decoration:none;
+}
+img{
+	max-width:100%;
+}
+.alignleft{
+	float:left;
+	margin-right:15px;
+}
+.alignright{
+	float:right;
+	margin-left:15px;
+}
+.aligncenter{
+	float:none;
+	margin:0 auto;
+}
+
+/*-------------------------------------------------------------------
+ Common Style Classes
+-------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6, span, p, a{
+    font-family: 'Dosis', sans-serif;
+}
+
+/*-------------------------------------------------------------------
+    End Index/Home Style
+-------------------------------------------------------------------*/
+/* Header style */
+.hd-top-area {
+  background: none repeat scroll 0 0 #19a4f4;
+  display: block;
+  padding: 15px 0 10px;
+}
+.text-right {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+span.glyphicon.glyphicon-phone-alt {
+  padding-right: 5px;
+}
+.bar {
+  color: #1b7bb3;
+  font-size: 14px;
+  padding: 0 7px;
+}
+.logo {
+  display: block;
+  overflow: hidden;
+}
+.logo img {
+  height: 85px;
+  width: 325px;
+}
+.hd-menu-area {
+  background: none repeat scroll 0 0 #fff;
+  padding: 10px 0 0;
+  clear: both;
+}
+.tistic{
+    border-bottom: 5px solid #ceeaf4;
+}
+.menu {
+  display: block;
+}
+.slicknav_menu{
+    display: none;
+}
+#nav{
+    display: block;
+}
+.site{
+    float: right;
+}
+nav.hd-nav {
+  display: block;
+  height: 85px;
+  margin: 0;
+}
+.hd-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.hd-nav li{
+    float: left;
+    position: relative;
+}
+
+.hd-nav a {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  outline: medium none;
+  padding: 0 11px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #256989;
+}
+.hd-nav ul ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 1000;
+}
+.hd-nav ul li ul li {
+  float: none;
+}
+.hd-nav ul li ul li a {
+  background: none repeat scroll 0 0 #005e8a;
+  border: medium none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 25px 10px 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.hd-nav ul li ul li a:hover {
+    background: #005177;
+    color: #19A4F4;
+    border: none;
+}
+.hd-nav li ul {
+    position:absolute;
+    left:-999999px;
+    
+}
+.hd-nav li:hover ul{
+    left:0px;
+}
+
+.hd-nav a:hover, .activate{
+    color: #19A4F4 !important;
+}
+.activate{
+    color: #19A4F4 !important;
+}
+
+#sub-logo {
+  position: relative;
+  top: -18px;
+  padding: 0;
+  height: 55px;
+}
+a#sub-logo:hover{
+    border: none;
+}
+/*
+.sub {
+  padding: 10px 0 0;
+}*/
+
+
+/* Banner Style */
+.st-banner {
+  background: url("../image/banner1.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 716px;
+  margin-top: -1px;
+}
+.detail h1 {
+  color: #005e8a;
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 54px;
+  margin-bottom: 0.5em;
+}
+.detail > p {
+  color: #698b9b;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  margin-bottom: 2.5em;
+}
+.detail > button {
+  background: none repeat scroll 0 0 #19a4f4;
+  border: medium none;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 1px #1596e0;
+  color: #ffea00;
+  font-size: 23px;
+  font-weight: 700;
+  margin-right: 21px;
+  padding: 8px 30px;
+  text-transform: uppercase;
+}
+.or {
+  color: rgb(160, 205, 221);
+  font-size: 24px;
+  font-weight: 700;
+}
+.detail {
+  margin-left: 25%;
+  position: relative;
+  top: 110px;
+}
+.form-paint {
+  background: url("../image/textturn.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  display: block;
+  height: 591px;
+  left: 14%;
+  max-width: 100%;
+  padding: 40px 83px 20px 30px;
+  position: relative;
+  top: 34px;
+  width: 427px;
+}
+.paint-1 > h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #005e8a;
+  text-transform: uppercase;
+}
+.forminput {
+  margin-bottom: 25px;
+  padding: 8px 3px 8px 10px;
+  width: 100%;
+  background: #005E8A;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+.paint-1 {
+  display: block;
+  margin: 0;
+}
+select.forminput {
+    border: none !important;
+}
+.select {
+  background: none repeat scroll 0 0 #fff;
+  color: #19a4f4;
+}
+/*
+select.select {
+  padding: 10px 0 10px 10px !important;
+}*/
+.select > option:nth-child(even){
+    background: #EAF0F3; 
+    border: 0 !important;   
+}
+.select > option:nth-child(odd){
+    background: #fff;
+    border: 0 !important;
+}
+.select > option {
+  background: none repeat scroll 0 0 #eaf0f3;
+  border: medium none !important;
+}
+.select > option:hover{
+    background: none !important;
+}
+.paint-2 {
+  display: block;
+  margin: 0;
+  padding-top: 108px ;
+}
+.paint-2 button {
+  background: none repeat scroll 0 0 #FFEA00;
+  border: medium none;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 1px #3A99CF;
+  color: #1596E0;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.paint-2 > a {
+  border-bottom: 1px solid #fff;
+  color: #ffffff;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 5px auto;
+  width: 30%;
+}
+
+/* Content Style */
+.st-content {
+  background: url("../image/content.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 560px;
+  overflow: hidden;
+  padding: 90px 0;
+}
+.tab-content {
+  background: none repeat scroll 0 0 #fff;
+  padding: 40px 20px;
+}
+.pane ul li a {
+    background: #CAEFFF;
+    border: medium none !important;
+    color: #005e8a !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px !important;
+}
+.media-left {
+  float: left;
+  margin-right: 4%;
+  width: 36%;
+}
+.media-body {
+  float: right;
+  margin-right: 2%;
+  width: 58%;
+}
+.media-left iframe {
+  height: 250px;
+  width: 100%;
+}
+.media-body h4 {
+  color: #005e8a;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  line-height: 40px;
+}
+.media-body > p {
+  color: #698b9b;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Footer Style */
+.ft-top-widget-area {
+  background: none repeat scroll 0 0 #174d72;
+  display: block;
+  overflow: hidden;
+  padding: 40px 0;
+}
+.single-1 > h2 {
+  color: #fff;
+  font-size: 23px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.single-1 > ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.single-1 li {
+  padding: 5px 0;
+}
+.single-1 a {
+  color: #47bcff;
+  font-size: 15px;
+  outline: none;
+  text-decoration: none;
+}
+.single-1 {
+    margin-bottom: 50px;
+}
+.single-1 a:hover,
+.single-1 a:focus {
+    color: #FFEA00;
+    outline: none;
+    text-decoration: none;
+}
+.subfter {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+  bottom: -40px;
+  left: 36%;
+  position: absolute;
+}
+.subfter > p {
+  color: #199cf6;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px 27px;
+  text-transform: uppercase;
+}
+.ft-bottom-area {
+  background: none repeat scroll 0 0 #005e8a;
+  display: block;
+  overflow: hidden;
+  padding: 30px 0 25px;
+}
+.copy > p {
+  color: #61b2d8;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+.condition > ul {
+  margin: 7px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.condition li {
+  float: left;
+  margin-right: 50px;
+}
+.condition li:last-child {
+  margin-right: 0px;
+}
+.condition a{
+    color: #CAEFFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.social > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+.social li {
+  float: left;
+  margin-right: 13px;
+}
+.social a {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 50%;
+  color: #19a4f4;
+  display: block;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------
+    End Index/Home Style
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+    Start Index5 Style
+-------------------------------------------------------------------*/
+.media-body-write{}
+.media-body-write h4 {
+  color: #005e8a;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  line-height: 40px;
+}
+.media-body-write > p {
+  color: #698b9b;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+/*.st5-paint{
+  display: block;
+  margin: 0;
+  padding-top: 35px ;
+}*/
+.st5-paintr {
+  display: block;
+  margin: 0;
+  padding-top: 80px;
+}
+.st-5 > h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #005e8a;
+}
+.five {
+  margin-bottom: 12px;
+}
+
+.media-body-write > a {
+  background: none repeat scroll 0 0 #e9eef5;
+  border-radius: 2px;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 90px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+
+
+/*-------------------------------------------------------------------
+    End Index5 Style
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+    Start Index2 Style
+-------------------------------------------------------------------*/
+.st-banner-about {
+  background: url("../image/bannersmall.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+  display: block;
+  height: 178px;
+  overflow: hidden;
+  padding: 40px 0;
+  background-size: 100% 100%;
+}
+.center-about h1 {
+  color: #005e8a;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  line-height: 63px;
+  padding-left: 5%;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  top: -7px;
+}
+.body-about > h1, .body-contact > h1 {
+  color: #64c0f5;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.right-image p, .left-image p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  color: #698B9B;
+  padding: 20px 0;
+}
+.right-image img {
+  float: right;
+  text-align: right;
+}
+.left-image img {
+  float: left;
+  text-align: left;
+}
+
+.ft-top-banner {
+  background: url("../image/ftbanner.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 289px;
+  overflow: hidden;
+  padding: 40px 0;
+}
+.st-content-about {
+  padding: 30px 0 20px;
+}
+.right-image, .left-image {
+  margin: 30px 0 40px;
+}
+.ft-center-top > p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.call {
+  color: #ffea00;
+}
+.ft-center-bottom {
+  margin-top: 122px;
+  text-align: center;
+}
+.ft-center-bottom button {
+  background: none repeat scroll 0 0 #ffea00;
+  border: medium none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #18a4f3;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+.body-contact > p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #698B9B;
+    padding: 20px 0;
+}
+.blue {
+  color: #64c0f5;
+  font-weight: 600;
+}
+
+/*-------------------------------------------------------------------
+    End Index2 Style
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    Start Index3 Style
+-------------------------------------------------------------------*/
+#gmap {
+  height: 162px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.info-log {
+  background: url("../image/contacttextturn.png") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0 150px;
+  width: 80%;
+}
+.left-form {
+  display: block;
+  overflow: hidden;
+  padding-left: 10%;
+  width: 90%;
+}
+.right-form {
+  display: block;
+  overflow: hidden;
+  padding-right: 10%;
+  width: 90%;
+}
+
+.info-log > h2 {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: -26px;
+  width: 95%;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+.group-button {
+  display: block;
+  overflow: hidden;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: -105px;
+}
+.group-button button {
+  background: none repeat scroll 0 0 #ffea00;
+  border: medium none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #19a4f4;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 8px 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.pol {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+.st-content-contact {
+  display: block;
+  overflow: hidden;
+  padding: 30px 0 80px;
+}
+
+/*-------------------------------------------------------------------
+    End Index3 Style
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    Start Index4 Style
+-------------------------------------------------------------------*/
+
+.st-content-works1 {
+  background: url("../image/howtele.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 450px;
+  overflow: hidden;
+}
+.st-content-works2 {
+  background: url("../image/howpost.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 450px;
+  overflow: hidden;
+}
+.st-content-works3 {
+  background: url("../image/howcale.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 450px;
+  overflow: hidden;
+}
+.st-content-works4 {
+  background: url("../image/howdoler.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 450px;
+  overflow: hidden;
+}
+.st-content-works5 {
+  background: url("../image/howsun.jpg") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 450px;
+  overflow: hidden;
+}
+
+.left-works-align > h2 {
+  color: #19a4f4;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: none;
+}
+.dhap {
+  color: #005f8a;
+  font-weight: 700;
+}
+.djhap {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.right-works-align > h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-transform: none;
+}
+.left-works-align > p {
+  color: #698b9b;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 0 20px;
+}
+.right-works-align > p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 0 20px;
+}
+.mok{
+    color: #19A4F4;
+}
+
+.left-works-align {
+  display: block;
+  float: left;
+  overflow: hidden;
+  padding: 140px 0 0;
+  text-align: left;
+  width: 50%;
+}
+.right-works-align {
+  float: right;
+  text-align: left;
+  width: 50%;
+  padding: 140px 0 0;
+}
+
+
+/*-------------------------------------------------------------------
+    End Index4 Style
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------
+    Start Index6 Style
+-------------------------------------------------------------------*/
+.st-content-error {
+  padding: 60px 0 80px;
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+}
+.single-lorem.activate > h1 {
+  color: #005e8a;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 60px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.single-lorem.activate > h2 {
+  color: #19a4f4;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+.darker {
+  color: #3f7693;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+.single-lorem > p {
+  color: #698b9b;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding: 0 0 20px;
+}
+.single-lorem > h2 {
+  color: #005e8a;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.dolor {
+  color: #19a4f4;
+}
+.right-mirror {
+  background: url("../image/internal.png") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 595px;
+  overflow: hidden;
+  padding: 45px 0 0;
+  position: relative;
+  width: 100%;
+}
+.dobe {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 30px;
+  top: 0;
+  width: 70%;
+}
+.right-mirror > .group-button {
+  bottom: -8%;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 70%;
+}
+.right-mirror > h2 {
+  color: #fff;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  margin: -16px auto 22px;
+  overflow: hidden;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  width: 70%;
+}
+.right-mirror .group-button button {
+  background: none repeat scroll 0 0 #ffea00;
+  border: medium none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #19a4f4;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding: 8px 40px;
+  text-transform: uppercase;
+}
+.read {
+  color: #47bcff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding-left: 4px;
+}
+
+.st-content-error-bottom {
+  background: none repeat scroll 0 0 #e9eef5;
+  padding: 40px 0;
+  display: block;
+  overflow: hidden;
+}
+.markedevo {
+  margin: 0 auto;
+  padding: 15px;
+  width: 65%;
+}
+.rate1 {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 1px;
+}
+.yellow {
+  background: none repeat scroll 0 0 #ffea00;
+}
+.yellow > p{
+    color: rgba(0,0,0,0.2) !important;
+}
+.break {
+  background: none repeat scroll 0 0 #da6a5b;
+}
+.bluer {
+  background: none repeat scroll 0 0 #19a4f4;
+}
+.green {
+  background: none repeat scroll 0 0 #80c02e;
+}
+.rate1 > p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+.toom {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.4);
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  width: 20px;
+  margin-right: 15px;
+}
+.fold {
+  font-weight: 700;
+  margin-right: 3px;
+}
+
+
+/*-------------------------------------------------------------------
+    End Index6 Style
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------
+    Start Index7 Style
+-------------------------------------------------------------------*/
+.st-privacy {
+  background: none repeat scroll 0 0 #e7f4f9;
+  display: block;
+  overflow: hidden;
+  padding: 60px 0 80px;
+}
+.privacy-page {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15% 8% 6%;
+  position: relative;
+  width: 100%;
+}
+
+.stick {
+  background: url("../image/hook.png") no-repeat scroll left center / 100% 100% rgba(0, 0, 0, 0);
+  height: 136px;
+  left: 51px;
+  position: absolute !important;
+  top: 37%;
+  width: 50%;
+  z-index: 100;
+}
+.stick > h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 98px;
+  margin: 0;
+  padding: 1% 0 0 21.5%;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+.logo > a {
+  outline: none;
+}
+
+/*-------------------------------------------------------------------
+    End Index7 Style
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    Start Index8 Style
+-------------------------------------------------------------------*/
+.st-login {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.login-plate {
+  background: url("../image/loginntextturn.png") no-repeat scroll center center / 100% 100% rgba(0, 0, 0, 0);
+  display: block;
+  height: 249px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 20px 8% 25px 3%;
+  text-align: center;
+  width: 426px;
+  margin: 0 auto;
+}
+.logbb {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logbb > h2 {
+  color: #fff;
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+}
+.login-plate .forminput {
+  background: none repeat scroll 0 0 #005e8a;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 8px 3px 8px 10px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.logbb button {
+  background: none repeat scroll 0 0 #fff;
+  border: medium none;
+  border-radius: 3px;
+  color: #19a4f4;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px 20px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  width: 100%;
+}
+
+
+
+/*-------------------------------------------------------------------
+    End Index8 Style
+-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------
+    Start Index9 Style
+-------------------------------------------------------------------*/
+.st-thankyou {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.thankyou-plate {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.thankyou-plate > h2 {
+  color: #19a4f4;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 33px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.thankyou-plate > p {
+  color: #005f8a;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+  margin: 35px 0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.thankyou-plate > h1 {
+  color: #19a4f4;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+.face {
+  color: #19a4f4;
+  display: block;
+  outline: medium none;
+  text-decoration: underline;
+}
+a.face:hover {
+    outline: none;
+    color: #19a4f4;
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------
+    End Index9 Style
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------
+    Start Index10 Style
+-------------------------------------------------------------------*/
+.st-faq {
+  display: block;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.faq-plate > h1 {
+  color: #19a4f4;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+.right-idea > h2 {
+  color: #005f8a;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.right-idea a {
+  color: #19a4f4;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: -moz-anchor-decoration;
+}
+.panel-title > a {
+  color: #3f7693 !important;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  outline: none;
+  text-decoration: none;
+}
+
+.panel-body > p {
+  color: #526e7b;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.panel-title > a[class="collapsed"]::before {
+  color: #68c8f6;
+  content: "";
+  font-family: fontawesome;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 54px;
+  margin-right: 13px;
+}
+.panel-title > a[class=""]::before {
+  color: #64cbf9 !important;
+  content: "" !important;
+  font-family: fontawesome !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 54px !important;
+  margin-right: 13px !important;
+}
+.panel-body {
+  margin-left: 28px !important;
+}
+.right-idea {
+  float: right;
+}
+.fas:hover{
+    color: #fff;
+}
+.fas{
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*-------------------------------------------------------------------
+    End Index10 Style
+-------------------------------------------------------------------*/
+
+
+
+/* ==========================================================================
+   Helper classes
+========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
